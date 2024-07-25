@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import WallTexture from '/public/texttures/textture01.jpg';
+import WallTexture from '/public/texttures/basic/texture01.jpg';
 
 const render = new THREE.WebGLRenderer({antialias: true});
 render.setSize(window.innerWidth, window.innerHeight);
