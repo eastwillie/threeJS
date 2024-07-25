@@ -67,7 +67,7 @@ makeAxisGrid(moonMesh, 'moonMesh');
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
-renderer.setAnimationLoop((time) => {
+renderer.setAnimationLoop(() => {
     objects.forEach(obj => obj.rotation.y += Math.PI / 360);
     renderer.render(scene, camera);
 });
