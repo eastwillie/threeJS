@@ -3,7 +3,7 @@ import {OrbitControls} from 'three/addons';
 import TextureFloor from '/public/texttures/basic/checker.png';
 import {ColorGUIHelper} from './helpers.js';
 import GUI from 'lil-gui';
-import {DirectionalLightHelper} from "three";
+import {DirectionalLightHelper} from 'three';
 
 const render = new THREE.WebGLRenderer({antialias: true});
 render.setSize(window.innerWidth, window.innerHeight);
