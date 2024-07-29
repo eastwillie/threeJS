@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {GLTFLoader, OrbitControls, RGBELoader} from 'three/addons';
-import Background from '/public/texttures/equirectangular/royal_esplanade_1k.hdr';
+import Background from '/public/textures/equirectangular/royal_esplanade_1k.hdr';
 import Helmet from '/public/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf';
 
 const renderer = new THREE.WebGLRenderer({antialias: true});

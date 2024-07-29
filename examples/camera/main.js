@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import FloorTexture from '/public/texttures/basic/checker.png';
+import FloorTexture from '/public/textures/basic/checker.png';
 import {OrbitControls} from "three/addons";
 import GUI from "lil-gui";
 

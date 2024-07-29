@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons';
-import TextureFloor from '/public/texttures/basic/checker.png';
+import TextureFloor from '/public/textures/basic/checker.png';
 import {ColorGUIHelper} from './helpers.js';
 import GUI from 'lil-gui';
 import {DirectionalLightHelper} from 'three';
